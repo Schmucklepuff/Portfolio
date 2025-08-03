@@ -3,30 +3,28 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "SightZone",
+    description: "Computer Vision-Based Approach Software Application for Monitoring Commuter Density using YOLOv8.",
+    image: "/projects/Sight Zone.png",
+    tags: ["Python", "OpenCV", "Streamlit"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    title: "WASHTIKA",
+    description: "Laundry Shop Delivery and Pick-up Application",
+    image: "/projects/washtika.png",
+    tags: ["C#", "MS Access"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    title: "WVSUMC",
+    description: "Out Patient Department Management System.",
+    image: "/projects/WVSUMC.png",
+    tags: ["C#", "MS Access"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -42,8 +40,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of my recent projects. These Projects showcase my skills in web development, software engineering, and problem-solving.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -100,7 +97,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Schmucklepuff"
           >
             Check My Github <ArrowRight size={16} />
           </a>
